@@ -11,7 +11,11 @@ const storeState = () => {
 
 export const stateControl = storeState();
 
-// This is a fucntion factor. We can easily create more specific functions that alter a plan's soul, water, and light to varying degrees.
+// const plantOne = stateControl()
+
+// plantOne(blueFood);
+
+// This is a function factor. We can easily create more specific functions that alter a plan's soul, water, and light to varying degrees.
 
 export const changeState = (prop) => {
   return (value) => {
